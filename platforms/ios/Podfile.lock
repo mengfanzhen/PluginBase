@@ -1,18 +1,35 @@
 PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
   - MBProgressHUD (1.0.0)
   - SBJson (4.0.2)
   - SBJson4 (4.0.2)
 
 DEPENDENCIES:
+  - AFNetworking (~> 3.1)
   - MBProgressHUD (~> 1.0)
   - SBJson (~> 4.0.1)
   - SBJson4 (~> 4.0.1)
 
 SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   SBJson: c18691cc18375b14664ff0fec841f8c4faef1934
   SBJson4: b64afe0d4607e9e339b6d7538b04611e756f71db
 
-PODFILE CHECKSUM: 950b38105d1ba3551f43a996712906fdb1967bfa
+PODFILE CHECKSUM: a1b1a7bea81bda39881ab32ee5f3419774d2ba45
 
 COCOAPODS: 1.0.1
